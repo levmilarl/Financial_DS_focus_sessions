@@ -1,0 +1,5 @@
+ÜB_4/CompleteMapping.parquet filter=lfs diff=lfs merge=lfs -text
+ÜB_4 filter=lfs diff=lfs merge=lfs -text
+ÜB_4/* filter=lfs diff=lfs merge=lfs -text
+Focus_Session_8/* filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text

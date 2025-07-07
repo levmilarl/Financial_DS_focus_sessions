@@ -1,0 +1,20 @@
+2025-06-27 16:45:09.454 | INFO     | __main__:runPipeline:52 - Start Time: 2025-06-27 16:45:09
+2025-06-27 16:45:09.454 | INFO     | __main__:runPipeline:52 - Start Time: 2025-06-27 16:45:09
+2025-06-27 16:45:09.454 | INFO     | __main__:runPipeline:53 - Start portfolio sorts pipeline...
+2025-06-27 16:45:09.454 | INFO     | __main__:runPipeline:53 - Start portfolio sorts pipeline...
+2025-06-27 16:45:09.738 | INFO     | __main__:calcMonthlyExcessReturn:95 - Processed risk free rates saved to courseMaterialPortfolioSorts/solution/RiskFreeRatesFilteredMonthly.parquet
+2025-06-27 16:45:09.738 | INFO     | __main__:calcMonthlyExcessReturn:95 - Processed risk free rates saved to courseMaterialPortfolioSorts/solution/RiskFreeRatesFilteredMonthly.parquet
+2025-06-27 16:45:10.713 | INFO     | __main__:calcMonthlyExcessReturn:129 - Processed data saved to courseMaterialPortfolioSorts/solution/SPXConstituentsPricesPrepared.parquet
+2025-06-27 16:45:10.713 | INFO     | __main__:calcMonthlyExcessReturn:129 - Processed data saved to courseMaterialPortfolioSorts/solution/SPXConstituentsPricesPrepared.parquet
+2025-06-27 16:45:15.407 | INFO     | __main__:mergeData:167 - Merged data saved to courseMaterialPortfolioSorts/solution/MergedInputData.parquet
+2025-06-27 16:45:15.407 | INFO     | __main__:mergeData:167 - Merged data saved to courseMaterialPortfolioSorts/solution/MergedInputData.parquet
+2025-06-27 16:45:16.555 | INFO     | __main__:getSortingDates:207 - Filtered dataset saved to courseMaterialPortfolioSorts/solution/MergedInputDataFiltered.parquet
+2025-06-27 16:45:16.555 | INFO     | __main__:getSortingDates:207 - Filtered dataset saved to courseMaterialPortfolioSorts/solution/MergedInputDataFiltered.parquet
+2025-06-27 16:45:16.555 | INFO     | __main__:getSortingDates:208 - Sorting dates saved to courseMaterialPortfolioSorts/solution/SortingDates.parquet
+2025-06-27 16:45:16.555 | INFO     | __main__:getSortingDates:208 - Sorting dates saved to courseMaterialPortfolioSorts/solution/SortingDates.parquet
+2025-06-27 16:45:16.589 | INFO     | __main__:runPipeline:67 - Portfolio sorts pipeline done!
+2025-06-27 16:45:16.589 | INFO     | __main__:runPipeline:67 - Portfolio sorts pipeline done!
+2025-06-27 16:45:16.590 | INFO     | __main__:runPipeline:68 - End Time: 2025-06-27 16:45:16
+2025-06-27 16:45:16.590 | INFO     | __main__:runPipeline:68 - End Time: 2025-06-27 16:45:16
+2025-06-27 16:45:16.590 | INFO     | __main__:runPipeline:69 - Duration: 00:00:07
+2025-06-27 16:45:16.590 | INFO     | __main__:runPipeline:69 - Duration: 00:00:07
