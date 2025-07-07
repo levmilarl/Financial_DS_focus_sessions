@@ -1,0 +1,26 @@
+2025-06-29 20:07:35.618 | INFO     | __main__:runPipeline:53 - Start Time: 2025-06-29 20:07:35
+2025-06-29 20:07:35.618 | INFO     | __main__:runPipeline:54 - Start portfolio sorts pipeline...
+2025-06-29 20:07:35.896 | INFO     | __main__:calcMonthlyExcessReturn:96 - Processed risk free rates saved to courseMaterialPortfolioSorts/solution/RiskFreeRatesFilteredMonthly.parquet
+2025-06-29 20:07:36.701 | INFO     | __main__:calcMonthlyExcessReturn:132 - Processed data saved to courseMaterialPortfolioSorts/solution/SPXConstituentsPricesPrepared.parquet
+2025-06-29 20:07:41.828 | INFO     | __main__:mergeData:170 - Merged data saved to courseMaterialPortfolioSorts/solution/MergedInputData.parquet
+2025-06-29 20:07:42.961 | INFO     | __main__:getSortingDates:210 - Filtered dataset saved to courseMaterialPortfolioSorts/solution/MergedInputDataFiltered.parquet
+2025-06-29 20:07:42.961 | INFO     | __main__:getSortingDates:211 - Sorting dates saved to courseMaterialPortfolioSorts/solution/SortingDates.parquet
+2025-06-29 20:07:43.029 | INFO     | __main__:buildSortedPortfolios:631 - Starting parallelized calculation of sorted portfolios: BivariateIndependent
+2025-06-29 20:07:43.030 | INFO     | __main__:buildSortedPortfolios:632 - Sorting variable 1: bakshi_mu_tau_30, sorting variable 2: bakshiSkew_tau_30, outcome variable: return_month_ahead_excess, percentiles variable 1: [25, 50, 75], percentiles variable 2: [25, 50, 75]
+2025-06-29 20:07:43.030 | INFO     | __main__:buildSortedPortfolios:634 - Weighting: MarketCapWeighted, filter for portfolios: None, maximum possible backtracking: 0 days
+2025-06-29 20:07:43.033 | INFO     | __main__:buildSortedPortfolios:649 - Chunk size: 5 meaning dates per chunk
+2025-06-29 20:07:43.033 | INFO     | __main__:buildSortedPortfolios:650 - Total number of chunks: 44 = processes
+2025-06-29 20:07:43.033 | INFO     | __main__:buildSortedPortfolios:651 - Spawning child processes...
+2025-06-29 20:08:13.700 | INFO     | __main__:buildSortedPortfolios:759 - Saved sortedPortfolioResults to courseMaterialPortfolioSorts/solution\sortedPortfolioResults.pkl
+2025-06-29 20:08:13.700 | INFO     | __main__:buildSortedPortfolios:759 - Saved sortedOutcomeResults to courseMaterialPortfolioSorts/solution\sortedOutcomeResults.pkl
+2025-06-29 20:08:13.700 | INFO     | __main__:buildSortedPortfolios:759 - Saved numberOfStocks to courseMaterialPortfolioSorts/solution\numberOfStocks.pkl
+2025-06-29 20:08:13.702 | INFO     | __main__:buildSortedPortfolios:759 - Saved breakpointsDict to courseMaterialPortfolioSorts/solution\breakpointsDict.pkl
+2025-06-29 20:08:13.702 | INFO     | __main__:buildSortedPortfolios:759 - Saved missingDataDict to courseMaterialPortfolioSorts/solution\missingDataDict.pkl
+2025-06-29 20:08:13.703 | INFO     | __main__:buildSortedPortfolios:759 - Saved missingRebalancingDatesList to courseMaterialPortfolioSorts/solution\missingRebalancingDatesList.pkl
+2025-06-29 20:08:13.703 | INFO     | __main__:buildSortedPortfolios:760 - Completed calculation of sorted portfolios.
+2025-06-29 20:08:13.714 | INFO     | __main__:convertOutcome:795 - PortfoliosOutcome.parquet has been saved.
+2025-06-29 20:08:13.725 | INFO     | __main__:calcDiffPortfolios:849 - Resulting DataFrame with DiD column saved to courseMaterialPortfolioSorts/solution/PortfoliosOutcomePlusDiff.parquet
+2025-06-29 20:08:13.756 | INFO     | __main__:performStatTest:905 - Statistical test results saved to courseMaterialPortfolioSorts/solution/PortfoliosOutcomePlusDiffTest.parquet
+2025-06-29 20:08:13.756 | INFO     | __main__:runPipeline:68 - Portfolio sorts pipeline done!
+2025-06-29 20:08:13.756 | INFO     | __main__:runPipeline:69 - End Time: 2025-06-29 20:08:13
+2025-06-29 20:08:13.756 | INFO     | __main__:runPipeline:70 - Duration: 00:00:38
