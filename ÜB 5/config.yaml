@@ -1,0 +1,16 @@
+# chose which provided df to use
+year: 2020
+
+
+# paths for data
+2002: "daza/SPY_15min_2002-01_to_2006-08.csv"
+2020: "data/SPY_15min_2020-01_to_2022-01.csv"
+news_path: "data/WhatMovesMarkets_eventdatabase.csv"
+
+# date range filters
+start_date: "2020-01-03"
+end_date: "2020-08-31"
+
+# if wanted for testing purposes, comment out above, uncomment below and change year(!) to 2002
+#start_date: "2002-03-01"
+#end_date: "2006-03-01"
